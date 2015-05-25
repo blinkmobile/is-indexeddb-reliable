@@ -1,10 +1,12 @@
 {
   "name": "is-indexeddb-reliable",
   "version": "1.0.0",
-  "description": "client-side test to confirm whether IndexedDB is implemented well enough",
+  "description": "does this browser provide a good IndexedDB implementation?",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "build": "browserify index.js -s isIndexedDBReliable > index.min.js",
+    "pretest": "npm run build",
+    "test": "eslint . && node ./tests"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/blinkmobile/is-indexeddb-reliable#readme",
   "devDependencies": {
-    "eslint": "^0.21.2"
+    "browserify": "^10.2.1",
+    "eslint": "^0.21.2",
+    "tape": "^4.0.0",
+    "tape-chai": "^1.1.0"
   }
 }
