@@ -21,7 +21,7 @@ Exercise (asynchronous) storage API enough to establish confidence that it works
 
 Avoids time-consuming or resource-intensive approaches
 
-### `thorough(callback)`
+### `thorough(callback)` (NOT IMPLEMENTED)
 
 - @param {`resultCallback`} callback
 
