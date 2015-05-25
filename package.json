@@ -1,0 +1,22 @@
+{
+  "name": "is-indexeddb-reliable",
+  "version": "1.0.0",
+  "description": "client-side test to confirm whether IndexedDB is implemented well enough",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinkmobile/is-indexeddb-reliable.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/blinkmobile/is-indexeddb-reliable/issues"
+  },
+  "homepage": "https://github.com/blinkmobile/is-indexeddb-reliable#readme",
+  "devDependencies": {
+    "eslint": "^0.21.2"
+  }
+}
