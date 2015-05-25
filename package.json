@@ -4,7 +4,7 @@
   "description": "does this browser provide a good IndexedDB implementation?",
   "main": "index.js",
   "scripts": {
-    "build": "browserify index.js -s isIndexedDBReliable > index.min.js",
+    "build": "browserify index.js -s isIndexedDBReliable > dist/index.js",
     "pretest": "npm run build",
     "test": "eslint . && node ./tests"
   },
