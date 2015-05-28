@@ -1,6 +1,6 @@
 {
   "name": "is-indexeddb-reliable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "does this browser provide a good IndexedDB implementation?",
   "main": "index.js",
   "scripts": {
