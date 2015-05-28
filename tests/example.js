@@ -7,21 +7,25 @@
 
   document.body.appendChild(list);
 
-  function log(msg) {
+  function log (msg) {
     list.insertAdjacentHTML('beforeend', '<li>' + msg + '</li>');
+  }
+
+  function logQuick (result) {
+    log('quick: ' + result);
+  }
+
+  function logThorough (result) {
+    log('thorough: ' + result);
   }
 
   // sync
   log('sync: ' + isIndexedDBReliable.sync());
 
   // quick
-  isIndexedDBReliable.quick(function (result) {
-    log('quick: ' + result);
-  });
+  isIndexedDBReliable.quick(logQuick);
 
   // thorough
-  isIndexedDBReliable.thorough(function (result) {
-    log('thorough: ' + result);
-  });
+  isIndexedDBReliable.thorough(logThorough);
 
 }());

@@ -27,6 +27,9 @@ function sync () {
     try {
       req = api.open(NAME, 1);
       if ('onsuccess' in req && 'onupgradeneeded' in req) {
+        req.onerror = function () {
+          close(api, req.result, NAME);
+        };
         req.onsuccess = function () {
           close(api, req.result, NAME);
         };
