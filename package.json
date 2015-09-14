@@ -1,5 +1,5 @@
 {
-  "name": "is-indexeddb-reliable",
+  "name": "@blinkmobile/is-indexeddb-reliable",
   "version": "1.0.1",
   "description": "does this browser provide a good IndexedDB implementation?",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/blinkmobile/is-indexeddb-reliable.git"
   },
-  "author": "",
+  "author": "Ron Waldon (https://github.com/jokeyrhyme)",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/blinkmobile/is-indexeddb-reliable/issues"

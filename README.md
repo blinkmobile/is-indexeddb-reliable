@@ -1,4 +1,6 @@
-# is-indexeddb-reliable
+# @blinkmobile/is-indexeddb-reliable
+
+[![npm module](https://img.shields.io/npm/v/@blinkmobile/is-indexeddb-reliable.svg)](https://www.npmjs.com/package/@blinkmobile/is-indexeddb-reliable)
 
 does this browser provide a good IndexedDB implementation?
 
